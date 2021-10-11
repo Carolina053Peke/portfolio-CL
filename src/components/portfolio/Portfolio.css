@@ -4,7 +4,7 @@
  * ------------------------------------------------------------------- */
  .s-portfolio {
     background-color: #EFDCF1;
-    
+    background-size: cover;
     padding-top: calc(3.5 * var(--space));
     padding-bottom: var(--vspace-5);
 }
@@ -23,6 +23,7 @@
 .folio-list {
     max-width: 1180px;
     margin-top: var(--vspace-2_5);
+    margin-bottom: var(--vspace-2_5);
 }
 
 .folio-item__thumb {
@@ -86,6 +87,7 @@
     -webkit-transition: all, .5s;
     transition: all, .5s;
     text-align: center;
+    
 }
 
 /* on hover

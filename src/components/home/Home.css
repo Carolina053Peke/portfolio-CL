@@ -3,14 +3,14 @@
  *
  * ------------------------------------------------------------------- */
  .s-hero {
-    background-color: var(--color-gray-18);
     width: 100%;
     height: 100vh;
-    min-height: calc(25 * var(--space));
+    min-height: calc(20 * var(--space));
     overflow: hidden;
     position: relative;
     background-image: url(../home/headerImg.jpg);
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -61,18 +61,18 @@
  * ## hero content
  * ------------------------------------------------------------------- */
 .s-hero__content {
-    height: 90%;
+    height: 84%;
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
     text-align: center;
-    padding-top: 6vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
     position: relative;
 }
 
 .s-hero__content h1 {
-    font-size: 9.8rem;
+    font-size: 8rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
@@ -86,7 +86,7 @@
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.667;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.651);
     margin-top: var(--vspace-0_5);
     margin-right: auto;
     margin-left: auto;
@@ -130,7 +130,7 @@
 }
 
 .s-hero__content-social a {
-    color: white;
+    color: rgba(255, 255, 255, 0.801);
     margin-right: var(--vspace-0_75);
 }
 
@@ -146,12 +146,12 @@
 /* ------------------------------------------------------------------- 
  * ## hero scrolldown
  * ------------------------------------------------------------------- */
-.s-hero__scroll {
+ .s-hero__scroll {
+    display: block;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     position: absolute;
-    left: 50%;
-    bottom: var(--vspace-1_25);
+    left: 85%;
 }
 
 .s-hero__scroll-link {
@@ -177,6 +177,7 @@
 }
 
 .s-hero__scroll-link .scroll-arrow {
+    padding-top: 10px;
     display: block;
     width: var(--vspace-1);
     height: var(--vspace-1);
@@ -184,6 +185,9 @@
     border-radius: 50%;
     border: 2px solid white;
     position: relative;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); /* IE 9 */
+    -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
 }
 
 .s-hero__scroll-link .scroll-arrow svg {
@@ -192,8 +196,11 @@
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left:15%;
+    top: 15%;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); /* IE 9 */
+    -webkit-transform:rotate(180deg);
 }
 
 .s-hero__scroll-link .scroll-arrow svg path {
@@ -217,7 +224,7 @@
     left: 0;
 }
 
-/* -------------------------------------------------------------------
+/* ---hasta aca----------------------------------------------------------------
  * ## animate hero content
  * ------------------------------------------------------------------- */
 .ss-preload .s-header, 

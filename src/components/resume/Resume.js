@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
 import './Resume.css'
 
-export default class resume extends Component {
-  render() {
-    return (
+
+
+const Resume = () => {
+  return (  
         <section id="resume" className="s-resume target-section">
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
@@ -56,6 +56,7 @@ export default class resume extends Component {
               </div>
             </div>
           </div> 
+          <br/>
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Education</h3>
@@ -65,25 +66,27 @@ export default class resume extends Component {
                 <div className="resume-block__header">
                   <h4 className="h3">Universidad de Buenos Aires</h4>
                   <p className="resume-block__header-meta">
-                    <span>Licensed at History - Faculty of Philosophy and Letters</span> 
+                    <span>Licensed at History - Faculty of Philosophy and Letters</span>
+                    <br/> 
                     <span className="resume-block__header-date">
                       2013 - 90% OF THE CAREER
                     </span>
                   </p>
                 </div>
                 <div className="resume-block__header">
-                  <h4 className="h3">Universidad Tecnológica Nacional</h4>
+                  <h4 className="h3">Instituto de Formación Tecnológico Superior N° 11</h4>
                   <p className="resume-block__header-meta">
-                    <span>Systems engineering</span><br>
+                    <span>Systems Analyst and Software development</span><br>
                     </br> 
                     <span className="resume-block__header-date">
-                      2019 - 15% OF THE CAREER
+                      2020 - 15% OF THE CAREER
                     </span>
                   </p>
                 </div>
               </div>  
             </div>
           </div> 
+          <br/>
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Skills</h3>
@@ -92,16 +95,12 @@ export default class resume extends Component {
               <div className="resume-block">
                 <ul className="skill-bars-fat">
                   <li>
-                    <div className="progress percent85" />
+                    <div className="progress percent90" />
                     <strong>HTML</strong>
                   </li>
                   <li>
-                    <div className="progress percent85" />
+                    <div className="progress percent90" />
                     <strong>CSS</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent65" />
-                    <strong>Node.js</strong>
                   </li>
                   <li>
                     <div className="progress percent90" />
@@ -110,6 +109,10 @@ export default class resume extends Component {
                   <li>
                     <div className="progress percent75" />
                     <strong>React</strong>
+                  </li>
+                  <li>
+                    <div className="progress percent65" />
+                    <strong>Node.js</strong>
                   </li>
                   <li>
                     <div className="progress percent60" />
@@ -122,4 +125,5 @@ export default class resume extends Component {
         </section> 
     )
   }
-}
+
+export default Resume;

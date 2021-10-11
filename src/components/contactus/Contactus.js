@@ -7,19 +7,20 @@ export default class contactus extends Component{
         return(
             <section id="contact" className="s-contact target-section">
             <div className="row s-contact__header">
-              <div className="column large-10">
+              {/* <div className="column large-10">
                 <h3 className="section-header-allcaps">Hello</h3>
-              </div>
+              </div> */}
             </div>
             <div className="row s-contact__content">
-              <div className="column large-8 medium-10">
+              <div className="column large-7 medium-10 tab-12">
+              <br/>
                 <h4 className="huge-text">
                 Have a new project in mind? Let's collaborate and build something awesome. Let's turn that idea to an even greater product :)
                 </h4>
               </div>
-              <div className="column large-4 medium-12">
+              <div className="column large-5 medium-12">
                 <div className="row contact-infos">
-                  <div className="column large-14 medium-10 tab-12">
+                  <div className="column large-12 medium-10 tab-10">
                     <div className="contact-block">
                       <h5 className="contact-block__header">
                         Email
@@ -29,7 +30,7 @@ export default class contactus extends Component{
                       </p>
                     </div> 
                   </div>
-                  <div className="column large-10 medium-6 tab-12">
+                  <div className="column large-24 medium-6 tab-12">
                     <div className="contact-block">
                       <h5 className="contact-block__header">
                         Phone

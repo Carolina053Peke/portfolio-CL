@@ -1,8 +1,10 @@
 import './App.css';
+import './main';
+
 
 import Header from './components/header/Header';
 import About from './components/about/About';
-import Preloader from './components/preloader/Preloader';
+// import Preloader from './components/preloader/Preloader';
 import Home from './components/home/Home';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
@@ -15,9 +17,7 @@ function App() {
       <Header />
       <Home />
       <About />
-      {/* <Preloader /> */}
-      
-
+    
       <Resume />
       <Portfolio />
       <Contactus />

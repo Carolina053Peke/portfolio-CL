@@ -16,6 +16,7 @@
 .s-contact .huge-text {
     color: white;
     margin-top: 0;
+
     font-weight: 400;
     font-size: 4.6rem;
     line-height: 1.304;
@@ -31,7 +32,10 @@
 .contact-infos .btn {
     margin-top: var(--vspace-0_75);
 }
-
+.contact-block {
+    margin-top: 20px;
+    padding-top: 20px;
+}
 .contact-block {
     font-size: 2.8rem;
     font-weight: 400;

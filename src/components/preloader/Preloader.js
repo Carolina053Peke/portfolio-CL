@@ -1,14 +1,13 @@
-import React, {Component } from 'react'
 import './Preloader.css'
 
-export default class preloader extends Component{
-    render(){
-        return(
-            <header id="top" className="ss-preload">
+
+
+const Preolader = () => {
+    return (  
                 <div id="preloader">
-                    <div id="loader" />
+                    <h1>Loading</h1>
+                    <div class="rainbow-marker-loader" />
                 </div>
-            </header>
         )
     }
-}
+export default Preolader;

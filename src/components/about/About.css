@@ -6,19 +6,20 @@
     list-style: none;
     --color-border: var(--color-gray-16);
     background-color: var(--color-gray-17);
-    padding-top: calc(1.2 * var(--space));
-    padding-bottom: calc(1.2 * var(--space));
+    padding-top: calc(1.6 * var(--space));
+    padding-bottom: calc(3.2 * var(--space));
     color: rgb(255, 255, 255);
     background-color: #5B4E5E;
     display: flex;
-    text-align: justify;
-    font-size: large;
+
 }
 ul{
     list-style: none;
 }
-.s-about h3 {
-    margin-top: 0;
+.s-about h5 {
+    margin-top: 1.2 rem;
+    padding-bottom: -20px;
+    margin-bottom: -10px;
     color: white;
 }
 
@@ -27,11 +28,13 @@ ul{
     height: var(--vspace-6);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
     border-radius: 10%;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .s-about__content-bottom {
     margin-top: var(--vspace-1);
+    align-items: center;
+
 }
 
 .s-about__content-bottom a {
@@ -47,7 +50,10 @@ ul{
     background-color: white;
     border-color: white;
     color: black;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .s-about__content-bottom .btn--download svg {
@@ -57,6 +63,10 @@ ul{
     margin-right: 1.2rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .s-about__content-bottom .btn--download:hover, 
@@ -87,7 +97,7 @@ ul{
     .s-about__pic {
         width: var(--vspace-4);
         height: var(--vspace-4);
-        border-width: 1.2rem;
+        border-width: 1rem;
     }
 }
 
@@ -96,7 +106,9 @@ ul{
         padding-top: var(--vspace-5);
     }
     .s-about__pic {
-        display: none;
+        width: var(--vspace-4);
+        height: var(--vspace-4);
+        border-width: 1rem;
     }
 }
 
@@ -105,12 +117,100 @@ ul{
         margin-top: var(--vspace-0_5);
         width: 100%;
     }
+    .s-about__pic {
+        width: var(--vspace-4);
+        height: var(--vspace-4);
+        border-width: 1rem;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .s-about__content-bottom .btn--download svg {
         display: none;
     }
+    .s-about__pic {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .s-hero__scroll-link .scroll-arrow {
+        display: none;
+    }
+}
+
+/* ------------------------------------------------------------------- 
+ * ## hero scrolldown
+ * ------------------------------------------------------------------- */
+ .s-about__scroll {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: var(--vspace-1_25);
+}
+
+.s-about__scroll-link {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    font-family: var(--font-1);
+    font-weight: 400;
+    font-size: calc(var(--text-size) * 0.6111);
+    line-height: var(--vspace-1);
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color: white;
+}
+
+.s-about__scroll-link:hover .scroll-text::after, 
+.s-about__scroll-link:focus .scroll-text::after {
+    width: 100%;
+}
+
+.s-about__scroll-link .scroll-arrow {
+    display: block;
+    width: var(--vspace-1);
+    height: var(--vspace-1);
+    margin-right: 1.6rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+}
+
+.s-about__scroll-link .scroll-arrow svg {
+    height: 2rem;
+    width: 2rem;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.s-about__scroll-link .scroll-arrow svg path {
+    fill: white;
+}
+
+.s-about__scroll-link .scroll-text {
+    position: relative;
+}
+
+.s-about__scroll-link .scroll-text::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /*Style grales*/
