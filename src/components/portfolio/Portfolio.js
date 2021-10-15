@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/random.user-fetch/" className="folio-item__thumb">
           <h6 className="titulo-proyectos"> UI-UX Fetch API</h6>
-          <img src="images/portfolio/droplet.jpeg" srcSet="images/portfolio/rucksack.jpg 1x, 
+          <img src="images/portfolio/rucksack.jpeg" srcSet="images/portfolio/rucksack.jpg 1x, 
                              images/portfolio/rucksack@2x.jpg 2x" alt="cv" />
         </a>
         <br/>
@@ -22,9 +22,10 @@ const Portfolio = () => {
 
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/to_do_list/" className="folio-item__thumb">
-          <img src="images/portfolio/minimalismo.jpg" srcSet="images/portfolio/fuji.jpg 1x, 
+        <h6 className="titulo-proyectos">To do list</h6>  
+          <img src="images/portfolio/fuji.jpg" srcSet="images/portfolio/fuji.jpg 1x, 
                              images/portfolio/rucksack@2x.jpg 2x" alt="todolist" />
-          <h6 className="titulo-proyectos">To do list</h6>              
+                     
         </a>
         <br/>
       </div>
@@ -32,7 +33,7 @@ const Portfolio = () => {
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/proyecto-calculadora-jQuery/" className="folio-item__thumb">
         <h6 className="titulo-proyectos">Calculadora en Jquery</h6>
-          <img src="images/portfolio/rucksack.jpg" srcSet="images/portfolio/lamp.jpg 1x, 
+          <img src="images/portfolio/lamp.jpg" srcSet="images/portfolio/lamp.jpg 1x, 
                              images/portfolio/rucksack@2x.jpg 2x" alt="calcyladora" />
         </a>
         <br/>
@@ -48,7 +49,7 @@ const Portfolio = () => {
       <br/>
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/ChatBots-en-JavaScript/" className="folio-item__thumb">
-          <img src="images/portfolio/sanddunes.jpg" srcSet="images/portfolio/fuji5.jpg 1x, 
+          <img src="images/portfolio/fuji5.jpg" srcSet="images/portfolio/fuji5.jpg 1x, 
                              images/portfolio/sanddunes@2x.jpg 2x" alt="ChatBots" />
         <h6 className="titulo-proyectos">ChatBots-en-JavaScript</h6>
         </a>
@@ -57,9 +58,10 @@ const Portfolio = () => {
       <br/>
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/Notas_promedio_estudiantes/" className="folio-item__thumb">
-        <h6 className="titulo-proyectos">Notas-promedio-estudiantes</h6>
-          <img src="images/portfolio/sanddunes.jpg" srcSet="images/portfolio/fuji9.jpg 1x, 
+        
+          <img src="images/portfolio/fuji9.jpg" srcSet="images/portfolio/fuji9.jpg 1x, 
                              images/portfolio/sanddunes@2x.jpg 2x" alt="ChatBots" />
+          <h6 className="titulo-proyectos">Notas-promedio</h6>
         </a>
         <br/>
       </div>
