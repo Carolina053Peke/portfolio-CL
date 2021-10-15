@@ -12,7 +12,7 @@ const footer = () => {
               <div className="column large-8 medium-6 w-1000-stack ss-copyright">
                 <span>© Copyright Carolina Lemes 2021</span> 
               </div>
-              <div className="row">
+              <div className="column">
                 <a href="#hero" className="s-footer__scroll-link smoothscroll">
                 <span className="scroll-text">Scroll up </span>
                 <span className="scroll-arrow">
