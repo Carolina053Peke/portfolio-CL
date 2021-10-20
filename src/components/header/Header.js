@@ -16,8 +16,7 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            is-clicked
-            <a className="s-header__menu-toggle navbar-expand-lg " href="#index" title="Menu" data-toggle="collapse"  data-target="#navbarNavDropdown">
+            <a className="s-header__menu-toggle navbar-expand-lg " href="#index" title="Menu" data-toggle="collapse">
               <span className="s-header__menu-icon navbar-toggler-icon" />
             </a>
           </header>
