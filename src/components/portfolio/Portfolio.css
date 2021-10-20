@@ -113,6 +113,29 @@
 }
 
 
+@media screen and (max-width: 360px){
+    .folio-list{
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto auto 80px;
+        grid-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .folio-list{
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto auto 80px;
+        grid-gap: 32px;
+    }
+}
 
 /*Style gral*/
 
