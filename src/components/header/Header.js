@@ -5,7 +5,8 @@ import './Header.css'
 const Header = () => {
   return (  
             <header id="header" className="s-header ">
-             <div className="navbar s-header__nav-wrap sticky-top navbar-expand-lg " id="navbarTogglerDemo03">
+             <div className="container-fluid s-header__nav-wrap  is-clicked sticky-top navbar-expand-lg " id="navbarTogglerDemo03">
+              
              <nav className="s-header__nav " >
                 <ul>
                   <li><a href="#hero">Home</a></li>
@@ -16,8 +17,8 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <a className="s-header__menu-toggle navbar-expand-lg " href="#index" title="Menu" data-toggle="collapse">
-              <span className="s-header__menu-icon navbar-toggler-icon" />
+            <a className="s-header__menu-toggle navbar-expand-lg" href="#index" title="Menu">
+              <span className="s-header__menu-icon " />
             </a>
           </header>
         )
