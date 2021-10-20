@@ -4,11 +4,10 @@ import './Header.css'
 
 const Header = () => {
   return (  
-            <header id="header" className="s-header  ">
-             <div className="container-fluid s-header__nav-wrap  sticky-top navbar-expand-lg" id="navbarTogglerDemo03">
-              
-             <nav className="s-header__nav d-flex" >
-                <ul  style={{alignItems:'center',justifyContent:'center', fontSize:'25px', padding:'0%', marggin:'0%', color:'#DEA9D3', backgroundColor:'black'}}>
+            <header id="header" className="s-header ">
+             <div className="navbar s-header__nav-wrap sticky-top navbar-expand-lg " id="navbarTogglerDemo03">
+             <nav className="s-header__nav " >
+                <ul>
                   <li><a href="#hero">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#resume">Training</a></li>
@@ -17,8 +16,9 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <a className="s-header__menu-toggle navbar-expand-md" href="#index" title="Menu">
-              <span className="s-header__menu-icon" />
+            is-clicked
+            <a className="s-header__menu-toggle navbar-expand-lg " href="#index" title="Menu" data-toggle="collapse"  data-target="#navbarNavDropdown">
+              <span className="s-header__menu-icon navbar-toggler-icon" />
             </a>
           </header>
         )
