@@ -21,8 +21,8 @@ const Portfolio = () => {
       </div> 
 
       <div className="column folio-item">
-        <a href="https://carolina053peke.github.io/to_do_list/" className="folio-item__thumb">
-        <h6 className="titulo-proyectos">To do list</h6>  
+        <a href="https://carolina053peke.github.io/tienda_de_Estampados/" className="folio-item__thumb">
+        <h6 className="titulo-proyectos">Wild Fashion</h6>  
           <img src="images/portfolio/fuji.jpg" srcSet="images/portfolio/fuji.jpg 1x, 
                              images/portfolio/rucksack@2x.jpg 2x" alt="todolist" />
                      
