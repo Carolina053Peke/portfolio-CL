@@ -33,9 +33,9 @@ const Portfolio = () => {
       </div>
 
       <div className="column folio-item">
-        <a href="https://carolina053peke.github.io/proyecto-calculadora-jQuery/" className="folio-item__thumb">
-        <h6 className="titulo-proyectos">Calculadora en Jquery</h6>
-          <img src="images/portfolio/lamp.jpg" srcSet="images/portfolio/lamp.jpg 1x, 
+        <a href="https://carolina053peke.github.io/marcos-a-medidas/" className="folio-item__thumb">
+        <h6 className="titulo-proyectos">Tienda de marcos a Medida</h6>
+          <img src="/public/images/portfolio/gallery/g-lamp.jpg" srcSet="images/portfolio/lamp.jpg 1x, 
                              images/portfolio/rucksack@2x.jpg 2x" alt="calcyladora" />
         </a>
         <br/>
