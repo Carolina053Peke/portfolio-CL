@@ -30,10 +30,10 @@ ul{
 
 .s-about__pic {
     width: var(--vspace-6);
-    height: var(--vspace-6);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 10%;
-    margin-top: 100px;
+    height: var(--vspace-5);
+    border: .9rem solid rgba(124, 111, 111, 0.233);
+    border-radius: 20%;
+    margin-top: 120px;
 }
 
 .s-about__content-bottom {

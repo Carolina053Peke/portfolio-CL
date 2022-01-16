@@ -9,7 +9,7 @@ const About = () => {
   <section id="about" className="s-about target-section">
   <div className="s-about column">
     <div className="column large-3 tab-10">
-      <img className="s-about__pic" src="images/avatars/user-1.jpg" alt="foto.cv"/>
+      <img className="s-about__pic" src="images/avatars/user-2.png" alt="foto.cv"/>
       <div className="row s-about__content-bottom"  >
             <div className="column w-1000-stack">
               <a href={CV} type="application/pdf" download="./Carolina_Lemes.pdf" className="btn btn--download">
