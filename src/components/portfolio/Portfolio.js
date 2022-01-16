@@ -5,12 +5,14 @@ const Portfolio = () => {
   return (  
     <section id="portfolio" className="s-portfolio target-section">
     <div className="row s-portfolio__header">
-      <div className="column large-12">
+      <div className="column small-12">
         <h3>Some of my first creations</h3>
       </div>
     </div>
     <br/>
     <div className="row block-large-1-3 block-medium-1-1 block-tab-1-1 block-600-stack folio-list">
+
+      
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/random.user-fetch/" className="folio-item__thumb">
           <h6 className="titulo-proyectos"> UI-UX Fetch API</h6>
@@ -29,7 +31,7 @@ const Portfolio = () => {
         </a>
         <br/>
       </div>
-      
+
       <div className="column folio-item">
         <a href="https://carolina053peke.github.io/proyecto-calculadora-jQuery/" className="folio-item__thumb">
         <h6 className="titulo-proyectos">Calculadora en Jquery</h6>
@@ -61,7 +63,7 @@ const Portfolio = () => {
         
           <img src="images/portfolio/fuji9.jpg" srcSet="images/portfolio/fuji9.jpg 1x, 
                              images/portfolio/sanddunes@2x.jpg 2x" alt="ChatBots" />
-          <h6 className="titulo-proyectos">Notas-promedio</h6>
+          <h6 className="titulo-proyectos">GENKKI SHUSHI</h6>
         </a>
         <br/>
       </div>
