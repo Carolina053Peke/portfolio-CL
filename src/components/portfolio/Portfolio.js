@@ -59,7 +59,7 @@ const Portfolio = () => {
       </div>
       <br/>
       <div className="column folio-item">
-        <a href="https://carolina053peke.github.io/Notas_promedio_estudiantes/" className="folio-item__thumb">
+        <a href="https://carolina053peke.github.io/TIENDA_DE_SUYI/" className="folio-item__thumb">
         
           <img src="images/portfolio/fuji9.jpg" srcSet="images/portfolio/fuji9.jpg 1x, 
                              images/portfolio/sanddunes@2x.jpg 2x" alt="ChatBots" />

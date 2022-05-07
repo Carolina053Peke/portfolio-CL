@@ -69,14 +69,14 @@ const Resume = () => {
                     <span>Licensed at History - Faculty of Philosophy and Letters</span>
                     <br/> 
                     <span className="resume-block__header-date">
-                      2013 - 90% OF THE CAREER
+                      2013 - 95% OF THE CAREER
                     </span>
                   </p>
                 </div>
                 <div className="resume-block__header">
                   <h4 className="h3">Instituto de Formación Tecnológico Superior N° 11</h4>
                   <p className="resume-block__header-meta">
-                    <span>Systems Analyst and Software development</span><br>
+                    <span>Software development</span><br>
                     </br> 
                     <span className="resume-block__header-date">
                       2020 - 15% OF THE CAREER
@@ -96,11 +96,11 @@ const Resume = () => {
                 <ul className="skill-bars-fat">
                   <li>
                     <div className="progress percent90" />
-                    <strong>HTML</strong>
+                    <strong>HTML & CSS</strong>
                   </li>
                   <li>
                     <div className="progress percent90" />
-                    <strong>CSS</strong>
+                    <strong>Boostrap & SASS</strong>
                   </li>
                   <li>
                     <div className="progress percent90" />
