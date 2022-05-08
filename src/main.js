@@ -104,7 +104,7 @@
             siteBody.classList.toggle('menu-is-open');
         });
 
-        headerNavWrap.querySelectorAll('.s-header__nav a').forEach(function(link) {
+        headerNavWrap.querySelectorAll('s-header__menu-toggle a').forEach(function(link) {
             link.addEventListener("click", function(evt) {
 
                 // at 800px and below
